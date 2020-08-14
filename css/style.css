@@ -1,0 +1,65 @@
+body {
+  background-color: #ebedf0;
+}
+
+.space {
+  display: grid;
+  justify-content: end;
+}
+
+.sign_detail {
+  font-size: smaller;
+  text-align: center;
+  color: gray;
+}
+
+.signinButton {
+  height: 70%;
+  width: 100%;
+  background-color: #0077c5;
+  color: white;
+  border-width: 1px;
+  border-color: darkgray;
+  border-radius: 4px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.signup {
+  width: 100%;
+  display: grid;
+  height: 6vh;
+  grid-template-columns: 92% 6%;
+  column-gap: 1%;
+}
+
+.maintitle {
+  height: 6vh;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  margin-top: 2%;
+  height: 4vh;
+  justify-content: center;
+}
+
+.images {
+  margin-left: 5px;
+  width: 2%;
+  height: 100%;
+}
+
+.descriptions {
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: x-large;
+  margin-right: 4px;
+}
