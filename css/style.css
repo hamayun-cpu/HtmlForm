@@ -70,6 +70,7 @@ body {
   height: fit-content;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .form-section {
   width: 23%;
@@ -147,7 +148,7 @@ a {
 
 .end_lines {
   background-color: #eceef1;
-  width: 27%;
+  width: 100%;
   border: solid 1px lightgrey;
   color: gray;
   font-size: small;
@@ -155,7 +156,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: hidden;
+  /* border-top: hidden; */
+  padding: 16 30px;
+  margin: 0 -32 -32 -32;
 }
 
 .end_container {
