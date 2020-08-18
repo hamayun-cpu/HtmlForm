@@ -191,3 +191,7 @@ a {
 .footer_color a {
   color: #4e4e4e;
 }
+
+.sml_text {
+  font-size: smaller;
+}
