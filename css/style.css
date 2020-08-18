@@ -71,7 +71,6 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 35px;
 }
 .form-section {
   width: 23%;
@@ -102,14 +101,15 @@ body {
 }
 
 .input {
-  width: 100%;
+  width: 98%;
   height: 100%;
   margin-top: 3%;
+  margin-right: 2%;
 }
 .smalltext {
   display: flex;
   justify-content: left;
-  margin-top: 11px;
+  margin-top: 19px;
   color: gray;
 }
 .key {
@@ -119,7 +119,7 @@ body {
 }
 
 .submit_btn {
-  margin-top: 29px;
+  margin-top: 35px;
   width: 100%;
   background-color: #0c7ac9;
   color: white;
@@ -130,7 +130,7 @@ body {
 }
 
 .italic_font {
-  margin-top: 50px;
+  margin-top: 27px;
   font-style: italic;
   color: gray;
   padding: 3%;
@@ -148,25 +148,23 @@ a {
 
 .end_lines {
   background-color: #eceef1;
-  width: 100%;
+  width: 23%;
   border: solid 1px lightgrey;
   color: gray;
   font-size: small;
-  height: 100%;
-  /* height: fit-content; */
+  height: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-top: hidden; */
-  padding: 16 30px;
-  margin: 0 -32 -32 -32;
+  border-top: hidden;
+  padding: 30px;
 }
-
 .end_container {
   width: 100%;
   display: flex;
   justify-content: center;
   height: 8vh;
+  margin-bottom: 2%;
 }
 
 .foter {
