@@ -2,24 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="signup">
+    <div class="signup" id="top_title">
       <!-- section for signup -->
       <div class="space">
-        <span class="sign_detail"
-          >Already have an Intuit account?
-          <br />
-          <a
-            class="anchor"
-            href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D4965b86c-3d6b-4666-81a7-2960b41d24cb"
-            >I forgot my User ID or Password</a
-          ></span
-        >
+        <!-- <span class="sign_detail" -->
+        <!-- >Already have an Intuit account? -->
+        <!--            -->
+        <!-- <a class="anchor" href="#top_title">I forgot my User ID or Password</a></span -->
+        <!-- > -->
+        <p class="sign_detail">
+          Already have an Intuit account?<br />
+          <a class="anchor" href="#top_title">I forgot my User ID or Password</a>
+        </p>
       </div>
       <div>
         <button type="submit" class="signinButton"><i class="fas fa-lock lock"></i>Sign In</button>
@@ -59,29 +59,28 @@
           <form class="left_aling">
             <div class="information">
               <label for="email">Email Addres</label>
-            </div>
-
-            <div class="inp_height">
               <input class="input" type="text" name="email" id="email" required />
             </div>
 
+            <!-- <div class="inp_height"> -->
+            <!-- <input class="input" type="text" name="email" id="email" required /> -->
+            <!-- </div> -->
+
             <div class="information">
               <label for="Phone">Phone (recommended) </label>
-            </div>
-            <div class="inp_height">
               <input class="input" type="tel" name="phone" id="phone" required />
             </div>
+            <!-- <div class="inp_height"></div> -->
 
             <small class="smalltext">Standard call, messaging or data rates may apply. </small>
 
             <div class="information">
               <label for="password">Password</label>
-            </div>
-
-            <div class="inp_height" id="mainpassword">
               <input class="input" type="password" name="password" id="password" required />
               <a href="mainpassword"><img class="key" src="css/pics/pwd.png" alt="keyimage" /> </a>
             </div>
+
+            <!-- <div class="inp_height" id="mainpassword"></div> -->
 
             <div id="button">
               <button type="submit" class="submit_btn"><i class="fas fa-lock lock"></i> Create Account</button>
@@ -89,17 +88,9 @@
             <div class="italic_font">
               <small class="change">
                 By clicking Create account, you agree to our
-                <a
-                  href="https://www.mint.com/terms
-                "
-                  >Terms</a
-                >
+                <a href="https://www.mint.com/terms">Terms</a>
                 and have read and acknowledge our
-                <a
-                  href="https://www.intuit.com/privacy/
-                "
-                  >Privacy Statement.</a
-                ></small
+                <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></small
               >
             </div>
           </form>
