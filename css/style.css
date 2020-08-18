@@ -27,6 +27,7 @@ body {
 .lock {
   margin-right: 5px;
 }
+
 .anchor {
   text-decoration: none;
   color: blue;
@@ -71,12 +72,14 @@ body {
   font-size: x-large;
   margin-right: 4px;
 }
+
 .div-section {
   height: fit-content;
   display: flex;
   justify-content: center;
   width: 100%;
 }
+
 .form-section {
   width: 23%;
   margin: 1% 0 0 0;
@@ -87,17 +90,21 @@ body {
   height: fit-content;
   border-bottom: hidden;
 }
+
 #titleinfo {
   font-size: xx-large;
 }
+
 .learnmore {
   margin-top: 4%;
   font-weight: normal;
   color: black;
 }
+
 .lineachor {
   text-decoration: none;
 }
+
 .information {
   display: flex;
   justify-content: flex-start;
@@ -111,6 +118,7 @@ body {
   margin-top: 3%;
   margin-right: 2%;
 }
+
 .smalltext {
   display: flex;
   justify-content: left;
@@ -119,6 +127,7 @@ body {
   font-size: 10pt;
   font-weight: normal;
 }
+
 .key {
   position: relative;
   left: 47%;
@@ -130,7 +139,7 @@ body {
   width: 100%;
   background-color: #0c7ac9;
   color: white;
-  padding: 6 12;
+  padding: 6px 12px;
   border: thin;
   border-radius: 4px;
   height: 44px;
@@ -166,6 +175,7 @@ a {
   border-top: hidden;
   padding: 30px;
 }
+
 .end_container {
   width: 100%;
   display: flex;
