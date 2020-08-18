@@ -8,9 +8,10 @@ body {
 }
 
 .sign_detail {
-  font-size: smaller;
   text-align: center;
-  color: gray;
+  color: black;
+  font-size: 13.3px;
+  font-weight: normal;
 }
 
 .signinButton {
@@ -28,7 +29,7 @@ body {
 }
 .anchor {
   text-decoration: none;
-  color: cornflowerblue;
+  color: #0167ff;
 }
 
 .signup {
@@ -87,8 +88,8 @@ body {
 }
 .learnmore {
   margin-top: 4%;
-  font-weight: lighter;
-  color: gray;
+  font-weight: normal;
+  color: black;
 }
 .lineachor {
   text-decoration: none;
@@ -110,7 +111,9 @@ body {
   display: flex;
   justify-content: left;
   margin-top: 19px;
-  color: gray;
+  color: black;
+  font-size: 10pt;
+  font-weight: normal;
 }
 .key {
   position: relative;
@@ -193,5 +196,13 @@ a {
 }
 
 .sml_text {
-  font-size: smaller;
+  color: black;
+  font-size: 8.1pt;
+  font-weight: normal;
+}
+
+.change {
+  color: black;
+  font-size: 10pt;
+  font-weight: normal;
 }
