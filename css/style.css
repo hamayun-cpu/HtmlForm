@@ -12,7 +12,6 @@ body {
   color: black;
   font-size: 13.3px;
   font-weight: normal;
-  /* word-break: break-all; */
 }
 
 .signinButton {
@@ -108,8 +107,6 @@ body {
 }
 
 .information {
-  /* display: flex; */
-  /* justify-content: flex-start; */
   margin-top: 8%;
   font-size: larger;
   text-align: left;
@@ -164,10 +161,6 @@ a {
   margin-left: 2px;
   margin-right: 2px;
 }
-
-/* .inp_height { */
-/* height: 30px; */
-/* } */
 
 .end_lines {
   background-color: #eceef1;
