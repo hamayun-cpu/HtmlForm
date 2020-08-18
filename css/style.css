@@ -46,6 +46,10 @@ body {
   text-align: center;
 }
 
+.log {
+  height: 71px;
+}
+
 .icons {
   display: flex;
   margin-top: 2%;
