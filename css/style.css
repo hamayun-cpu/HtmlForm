@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 35px;
 }
 .form-section {
   width: 23%;
@@ -90,7 +91,7 @@ body {
   font-weight: lighter;
   color: gray;
 }
-#more {
+.lineachor {
   text-decoration: none;
 }
 .information {
@@ -98,7 +99,6 @@ body {
   justify-content: flex-start;
   margin-top: 8%;
   font-size: larger;
-  /* font-weight: lighter; */
 }
 
 .input {
@@ -152,8 +152,8 @@ a {
   border: solid 1px lightgrey;
   color: gray;
   font-size: small;
-  /* height: 100%; */
-  height: fit-content;
+  height: 100%;
+  /* height: fit-content; */
   display: flex;
   justify-content: center;
   align-items: center;
