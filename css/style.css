@@ -1,0 +1,222 @@
+body {
+  background-color: #ebedf0;
+}
+
+.space {
+  display: grid;
+  justify-content: end;
+}
+
+.sign_detail {
+  text-align: center;
+  color: black;
+  font-size: 13.3px;
+  font-weight: normal;
+}
+
+.signinButton {
+  height: 70%;
+  width: 100%;
+  background-color: #0077c5;
+  color: white;
+  border-width: 1px;
+  border-color: darkgray;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.lock {
+  margin-right: 5px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: blue;
+}
+
+.signup {
+  width: 100%;
+  display: grid;
+  height: 6vh;
+  grid-template-columns: 92% 6%;
+  column-gap: 1%;
+}
+
+.maintitle {
+  height: 6vh;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.log {
+  height: 71px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 2%;
+  height: 4vh;
+  justify-content: center;
+}
+
+.images {
+  margin-left: 5px;
+  width: 2%;
+  height: 100%;
+}
+
+.descriptions {
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: x-large;
+  margin-right: 4px;
+}
+
+.div-section {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-section {
+  width: 23%;
+  margin: 1% 0 0 0;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border: solid 1px lightgrey;
+  height: fit-content;
+  border-bottom: hidden;
+}
+
+#titleinfo {
+  font-size: xx-large;
+}
+
+.learnmore {
+  margin-top: 4%;
+  font-weight: normal;
+  color: black;
+}
+
+.lineachor {
+  text-decoration: none;
+}
+
+.information {
+  margin-top: 8%;
+  font-size: larger;
+  text-align: left;
+}
+
+.left_text {
+  text-align: left;
+}
+
+.input {
+  width: 98%;
+  height: 30px;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.smalltext {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  color: black;
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+.key {
+  position: relative;
+  left: 93%;
+  bottom: 28px;
+}
+
+.submit_btn {
+  margin-top: 35px;
+  width: 100%;
+  background-color: #0c7ac9;
+  color: white;
+  padding: 6px 12px;
+  border: thin;
+  border-radius: 4px;
+  height: 44px;
+}
+
+.italic_font {
+  margin-top: 27px;
+  font-style: italic;
+  color: gray;
+  padding: 3%;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.end_lines {
+  background-color: #eceef1;
+  width: 23%;
+  border: solid 1px lightgrey;
+  color: gray;
+  font-size: small;
+  height: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: hidden;
+  padding: 30px;
+}
+
+.end_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  margin-bottom: 2%;
+}
+
+.foter {
+  margin: auto;
+  width: 70%;
+  height: fit-content;
+}
+
+.foter1st_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 6px;
+}
+
+.foter2nd_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #4e4e4e;
+}
+
+.footer_color a {
+  color: #4e4e4e;
+}
+
+.sml_text {
+  color: black;
+  font-size: 8.1pt;
+  font-weight: normal;
+}
+
+.change {
+  color: black;
+  font-size: 10pt;
+  font-weight: normal;
+}

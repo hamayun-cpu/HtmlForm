@@ -1,0 +1,22 @@
+{
+  "name": "htmlform",
+  "version": "1.0.0",
+  "description": "2nd project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamayun-cpu/HtmlForm.git"
+  },
+  "author": "Cosmel and Hamayun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamayun-cpu/HtmlForm/issues"
+  },
+  "homepage": "https://github.com/hamayun-cpu/HtmlForm#readme",
+  "devDependencies": {
+    "hint": "^6.0.7"
+  }
+}
