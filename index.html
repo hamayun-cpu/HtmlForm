@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <script
@@ -11,14 +11,15 @@
     ></script>
   </head>
   <body>
-    <div class="signup">
+    <div class="signup" id="top_title">
       <!-- section for signup -->
       <div class="space">
-        <span class="sign_detail"
-          >Already have an Intuit account?
-          <br />
-          <a class="anchor" href="#">I forgot my User ID or Password</a></span
-        >
+        <p class="sign_detail">
+          Already have an Intuit account?<br />
+          <a class="anchor" href="#top_title"
+            >I forgot my User ID or Password</a
+          >
+        </p>
       </div>
       <div>
         <button type="submit" class="signinButton">
@@ -31,7 +32,7 @@
     <header>
       <div id="header">
         <div class="maintitle">
-          <a href="#">
+          <a href="#header">
             <img class="log" src="css/pics/mainlogo.svg" alt="logo" />
           </a>
         </div>
@@ -55,14 +56,15 @@
           <span id="titleinfo"> Create an Intuit account</span>
           <div class="learnmore">
             One account for everything Intuit, including Mint.<br />
-            <a class="lineachor" href="#">Learn more</a>
+            <a
+              class="lineachor"
+              href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+              >Learn more</a
+            >
           </div>
-          <form class="left_aling" action="">
+          <form class="left_aling">
             <div class="information">
               <label for="email">Email Addres</label>
-            </div>
-
-            <div class="inp_height">
               <input
                 class="input"
                 type="email"
@@ -74,13 +76,11 @@
 
             <div class="information">
               <label for="Phone">Phone (recommended) </label>
-            </div>
-            <div class="inp_height">
               <input
                 class="input"
                 type="tel"
-                name="phone"
-                id="phone"
+                name="Phone"
+                id="Phone"
                 required
               />
             </div>
@@ -91,9 +91,6 @@
 
             <div class="information">
               <label for="password">Password</label>
-            </div>
-
-            <div class="inp_height">
               <input
                 class="input"
                 type="password"
@@ -101,12 +98,12 @@
                 id="password"
                 required
               />
-              <a href="#"
+              <a href="mainpassword"
                 ><img class="key" src="css/pics/pwd.png" alt="keyimage" />
               </a>
             </div>
 
-            <div type="submit" id="button">
+            <div id="button">
               <button type="submit" class="submit_btn">
                 <i class="fas fa-lock lock"></i> Create Account
               </button>
@@ -114,15 +111,9 @@
             <div class="italic_font">
               <small class="change">
                 By clicking Create account, you agree to our
-                <a
-                  href="https://www.mint.com/terms
-                "
-                  >Terms</a
-                >
+                <a href="https://www.mint.com/terms">Terms</a>
                 and have read and acknowledge our
-                <a
-                  href="https://www.intuit.com/privacy/
-                "
+                <a href="https://www.intuit.com/privacy/"
                   >Privacy Statement.</a
                 ></small
               >
